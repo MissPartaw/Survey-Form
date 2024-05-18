@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+
+:root{
+    --color-white:#f3f3f3;
+    --color-darckblue:#796ec8;
+    --color-darckblue-alpha: rgba(13,138,178,8);
+    --color-green: #21eb6e;
+}
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins" sans-serif;
+    font-size: 1rem;
+}
