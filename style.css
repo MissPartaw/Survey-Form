@@ -34,11 +34,11 @@ body::before{
 }
 #title{
     color: var(--color-green);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 4rem;
 }
 h1{
-    font-weight: 400;
+    font-weight: 300;
     line-height: normal;
 }
 p{
@@ -54,4 +54,25 @@ label{
     font-size: 1.125rem;
     margin-bottom: 0.5;
 }
+input,button,select,textarea{
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.container{
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+    padding: 1.8rem 1 rem;
+}
+.header{
+    padding: 0 0.625rem;
+    margin-bottom: 1.8rem;
+    text-align: center;
+}
+#description{
+    font-style: bold;
+    font-weight: 300rem;
+}
+
 
