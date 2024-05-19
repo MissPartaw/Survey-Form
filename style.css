@@ -83,7 +83,7 @@ input,button,select,textarea{
 }
 #quest{
     color: rgb(241,191,98);
-    font size: 1.5rem;
+    font-size: 1.5rem;
 }
 form{
     background: var(--color-darckblue-alpha);
