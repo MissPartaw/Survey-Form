@@ -100,6 +100,7 @@ form {
   margin:  0 auto 1.25rem auto;
   padding: 0.25rem;
 }
+
 .formcontrol {
   display: block;
   width: 100%;
@@ -115,14 +116,16 @@ form {
 .formcontrol {
   border-color: blue;
   outline: 0;
-  box-shadow: 0,0,0,0.2rem rgba(0,123,255,25);
+  box-shadow: 0, 0, 0, 0.2rem rgba(0, 123, 255, 25);
 }
+
 .inputRadio,.checkbox {
   display: inline-block;
   margin-right: 0.625rem;
   min-height: 1.25rem;
   min-width: 1.25rem;
 }
+
 .textarea {
   width: 100%;
   padding: 0.75rem;
@@ -131,6 +134,7 @@ form {
   border-color: blue;
   border-radius: 5px;
 }
+
 .btn {
   display: block;
   width: 100%;
@@ -146,13 +150,14 @@ form {
   border: none;
 }
 
-@media (min-width:576px) {
-  .container{
+@media (min-width: 576px) {
+  .container {
     max-width: 540px;
   }
 }
-@media (min-width:800px) {
-  .container{
+
+@media (min-width: 800px) {
+  .container 
     max-width: 760px;
   }
 }
