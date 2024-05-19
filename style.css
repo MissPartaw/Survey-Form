@@ -157,7 +157,7 @@ form {
 }
 
 @media (min-width: 800px) {
-  .container 
+  .container {
     max-width: 760px;
   }
 }
