@@ -14,7 +14,7 @@
 }
 
 body {
-  font-family: Helvetica, Arial, Verdana, Tahoma;
+  font-family: "my_original_font_family_name", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.4;
