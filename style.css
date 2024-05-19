@@ -14,7 +14,7 @@
 }
 
 body {
-  font-family: "Poppins" sans-serif;
+  font-family: Helvetica, Arial, Verdana, Tahoma;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.4;
@@ -134,12 +134,6 @@ form {
   transition: border-color 0.15s ease-in-out;
 }
 
-<!-- .formcontrol {
-  border-color: blue;
-  outline: 0;
-  box-shadow: 0, 0, 0, 0.2rem rgba(0, 123, 255, 25);
-} -->
-
 .inputRadio,
 .checkbox {
   display: inline-block;
@@ -181,4 +175,4 @@ form {
   .container {
     max-width: 760px;
   }
-};
+}
