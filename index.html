@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY FORM</title>
+    <!-- css file link -->
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title">
+                MAHII BEAUTY SURVEY FORM  
+            </h1>
+            <P id="description">
+                Thank You for Choosing Us and taking time to help us to improve the plateform
+            </P>
+        </header>
+        <form action="" id="survey-form">
+            <!-- text section -->
+            <div class="from-group">
+                <label for="name"id="name-label">Name</label>
+                <input type="text" 
+                name="Name" 
+                id="name" 
+                class="formcotrol"
+                placeholder="Enter your name" 
+                required>
+            </div>
+            <!-- end of text section -->
+
+            <!-- type email section -->
+            <div class="from-group">
+                <label for="email"id="email-label">Email</label>
+                <input type="email" 
+                name="email" 
+                id="email" 
+                class="formcotrol"
+                placeholder="Enter your email" 
+                required>
+            </div>
+            <!-- end of type email section -->
+
+            <!-- type number section -->
+            <div class="from-group">
+                <label for="phone" id="number-label">Phone nomber</label>
+                <input type="number" 
+                min="0700000000";
+                max="0799999999"
+                name="number" 
+                id="number" 
+                class="formcotrol"
+                placeholder="Enter your phone number" 
+                required>
+            </div>
+            <!-- end of type number section -->
+
+            <!-- address section -->
+            <div class="from-group">
+                <label for="address">Address</label>
+                <span class="clue">(optional)</span>
+                <input type="text" 
+                name="address" 
+                id="address" 
+                class="formcotrol"
+                placeholder="Enter your adress" 
+                required>
+            </div>
+            <!-- end of address section -->
+            <br>
+            <!-- select section -->
+            <div class="from-group"
+            <p id="quest">Which option corresponds to
+                 your levevl of satisfactoin?</p>
+                 <select name="satisfaction" id="dropdown" class="conformControl" required>
+                    <option value="" disabled selected> Select your satisfaction level</option>
+                    <option value="i am very satisfaied,thank you for your prodacts">I am very satisfaied,thank you for your prodacts</option>
+                    <option value="It is good,thanks">It is good,thanks</option>
+                    <option value="i have allergic to your prodacts">I have allergic to your prodacts</option>
+                    <option value="i did not enjoy using">I did not enjoy using</option>
+                 </select>
+            <!-- end of select section -->
+
+            <!-- radio button section -->
+            <div class="form from-group">
+                <p id="quest">Which prodacts do you use?</p>
+                <label for="">
+                    <input type="radio" 
+                    name="product"
+                    value="craem"
+                    class="inputradio"
+                    checked>Craem
+                </label>
+                <label for="">
+                    <input type="radio"
+                    name="product"
+                    value="Face wash"
+                    class="inputradio"
+                    checked>Face wash
+                </label>
+                <label for="">
+                    <input type="radio"
+                    name="product"
+                    value="Primer"
+                    class="inputradio"
+                    checked>Primer
+                </label>
+                <label for="">
+                    <input type="radio"
+                    name="product"
+                    value="lipstick"
+                    class="inputradio"
+                    checked>Lipstick
+                </label>
+                <label for="">
+                    <input type="radio"
+                    name="product"
+                    value="mascara"
+                    class="inputradio"
+                    checked>Mascara
+                </label>
+            </div>
+            
+            <!-- end of radio botton section -->
+
+            <!-- text area section -->
+            <div class="from-group">
+                <p id="quest">Give us your feedback</p>
+                <textarea name="feedback" id="feedback" cols="30" rows="5" class="textarea" placeholder="Enter your feedback here..."></textarea>
+            </div>
+            <!-- end of textarea -->
+
+            <!-- submit button -->
+            <div class="from-group">
+                <button type="submit" id="submit" class="button">Submit</button>
+            </div>
+
+<input type="checkbox" name="checkbox" value="beauty-prodact">
+<input type="checkbox" name="checkbox" value="2">
+
+        </form>
+       
+</body>
+</html>
